@@ -6,8 +6,7 @@ function HomePage() {
         <div className="homePage">
             <div className="textContainer">
                 <div className="wrapper">
-                    <div className="title">
-                    <h1>
+                    <h1 className="title">
                         Find Real Estate & Get Your Dream Place
                     </h1>
                     <p>
@@ -31,7 +30,6 @@ function HomePage() {
                             <h1>1200+</h1>
                             <h2>Property Ready</h2>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
