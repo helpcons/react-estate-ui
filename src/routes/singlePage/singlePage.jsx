@@ -1,5 +1,5 @@
 import Slider from '../../components/slider/slider'
-import { singlePostData } from '../../lib/dummydata'
+import { singlePostData, userData } from '../../lib/dummydata'
 import './singlePage.scss'
 
 function SinglePage () {
@@ -18,9 +18,14 @@ function SinglePage () {
                                 </div>
                                 <div className="price">$ {singlePostData.price}</div>
                             </div>
-                            <div className="user"></div>
+                            <div className="user">
+                                <img src={userData.img} alt="" />
+                                <span>{userData.name}</span>
+                            </div>
                         </div>
-                        <div className="bottom"></div>
+                        <div className="bottom">
+                            {singlePostData.description}
+                        </div>
                     </div>
                 </div>
             </div>
